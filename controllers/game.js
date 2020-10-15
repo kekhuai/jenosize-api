@@ -14,4 +14,4 @@ module.exports = async function(fastify, opts) {
   });
 };
 
-module.exports.autoPrefix = '/v1/solve-24';
+module.exports.autoPrefix = '/v1/game/solve-24';
