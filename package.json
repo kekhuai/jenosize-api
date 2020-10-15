@@ -2,5 +2,23 @@
   "name": "jenosize-api",
   "version": "1.0.0",
   "main": "index.js",
-  "license": "MIT"
+  "license": "MIT",
+  "dependencies": {
+    "fastify": "^3.6.0",
+    "fastify-autoload": "^3.3.0",
+    "fastify-cli": "^2.3.0",
+    "lodash": "^4.17.20",
+    "validator": "^13.1.17"
+  },
+  "devDependencies": {
+    "@babel/core": "^7.12.0",
+    "@babel/node": "^7.10.5",
+    "@babel/preset-env": "^7.12.0",
+    "fastify-babel": "^2.0.0",
+    "jest": "^26.5.3"
+  },
+  "scripts": {
+    "start": "./node_modules/.bin/fastify start -l info app.js",
+    "test": "jest"
+  }
 }
