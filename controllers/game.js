@@ -1,6 +1,6 @@
 const get = require('lodash/get');
 const map = require('lodash/map');
-const solver = require('../services/twenty_four_solver');
+const solver = require('../services/twenty-four-game-solver');
 
 module.exports = async function(fastify, opts) {
   fastify.get('/', {}, async function(request, reply) {
