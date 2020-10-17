@@ -1,4 +1,4 @@
-const solver = require('../../services/twenty_four_solver');
+const solver = require('../../services/twenty-four-game-solver');
 
 describe('test 24 solver', () => {
   test('1 2 3 4 should be solved as 4*(3+(1+2))', () => {
